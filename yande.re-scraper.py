@@ -3,7 +3,6 @@ import requests
 from urllib.parse import unquote
 from IPython.display import display, HTML
 
-# Ask user for a tag
 TAG = input("Enter the tag: ").strip()
 
 if not TAG:
